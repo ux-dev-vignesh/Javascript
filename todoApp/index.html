@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spicy Hunt</title>
+    <link rel="shortcut icon" href="./assets/images/pngwing.com (2).png" type="image/x-icon">
+    <link rel="stylesheet" href="./sass/dist/style.css">
+    <link rel="stylesheet" href="./sass/dist/bootstrap.min.css">
+    <link rel="stylesheet" href="./sass/dist/all.css">
+
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <a href="#" id="brand"><img src="./assets/images/pngwing.com (2).png" alt="logo" id="brandIcon"> spicy
+            hunt</a>
+    </header>
+    <!-- main content -->
+    <div class="container d-flex justify-content-center">
+        <div class="row d-flex justify-content-md-center my-md-5 w-75">
+            <input type="text" class="col-md-7 form-control-md rounded-2 my-1 my-md-0 p-1"
+                placeholder="enter your favrouite food" id="input-box" value="">
+            <a href="#" class="btn btn-dark col-md-3 ms-md-3 rounded-2 my-1 my-md-0" id="input-btn"
+                onclick="addElement()">save</a>
+        </div>
+    </div>
+
+    <div id="output-box" class=" container d-flex justify-content-center my-1 my-md-2">
+        <ul id="foodItems" class="w-50"></ul>
+    </div>
+    <!-- footer -->
+
+    <script src="./js/app.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/all.js"></script>
+</body>
+
+</html>

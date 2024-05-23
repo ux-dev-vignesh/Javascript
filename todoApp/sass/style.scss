@@ -1,0 +1,68 @@
+$background: #f1f1f1;
+$text-color: #000000;
+$default-font: 1rem;
+$default-weight: 500;
+$head: #b5c18e;
+$footer: #eadbc8;
+$decoration: none;
+$shadow: 2px 1px 2px rgb(0, 0, 0);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: $default-font;
+}
+
+body {
+  background-color: $footer;
+  padding: 5px;
+}
+
+a {
+  text-decoration: $decoration;
+  font-size: $default-font * 2;
+  color: $text-color;
+}
+
+header {
+  background-color: $footer;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 10px;
+  a {
+    text-decoration: $decoration;
+    font-size: $default-font * 3;
+    color: $text-color;
+    font-weight: $default-weight;
+  }
+  img {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+@media only screen and(max-width:400px) {
+  header {
+    a {
+      font-size: $default-font;
+      img {
+        width: 30px;
+        height: 30px;
+      }
+    }
+  }
+}
+#foodItems {
+  list-style: none;
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4px 2px;
+    padding: 5px 10px;
+    background-color: $footer;
+    font-size: $default-font;
+    font-weight: $default-weight;
+  }
+}
