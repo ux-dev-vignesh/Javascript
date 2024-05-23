@@ -1,0 +1,27 @@
+$reset-link: none;
+$text-color: #000;
+$default-fontWeight: 500;
+
+#brand {
+  text-decoration: $reset-link;
+  color: $text-color;
+  font-weight: $default-fontWeight;
+}
+
+.square {
+  width: 30%;
+  background: purple;
+  margin: 1.66%;
+  float: left;
+  padding-bottom: 30%;
+}
+
+.container {
+  max-width: 700px !important;
+  margin: 20px auto 0;
+}
+
+#header {
+  color: #fff;
+  background-color: #000;
+}
