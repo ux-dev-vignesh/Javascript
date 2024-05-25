@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  caret-color: deeppink;
+}
+
+body #section1 {
+  width: 300px;
+  position: relative;
+}
+body button {
+  position: absolute;
+  right: 0;
+  width: 100px;
+}
